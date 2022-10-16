@@ -17,7 +17,7 @@ body{
     /* background: linear-gradient(to bottom, yellow, orange); */
     background-image: url("https://wallpaperaccess.com/full/1506250.jpg");
     background-size: cover;
-    height: 150vh;
+    height: 100vh;
 }
 h3{
     color: white;
@@ -27,6 +27,11 @@ h3{
     display: inline-block;
     padding-left: 20px;
     padding-right: 30px;
+    width: 100%;
+}
+.jassu{
+    width: 100%;
+    margin-top: 50px;
 }
 .left{
     float: left;
@@ -34,12 +39,12 @@ h3{
 .left h3, .right h3, .center h3{
     width: 300px;
 }
+.one span h3{
+    width: 450px;
+}
 .right{
     float: right;
     margin-left: 9vw;
-}
-.center{
-    margin-left: 10.5vw;
 }
 .style{
     width: 300px;
@@ -48,7 +53,7 @@ canvas{
     border-radius: 10px;
     box-shadow: 5px 5px 20px grey;
     border: 5px solid white;
-    margin-top: 150px;
+    margin-top: 70px;
     box-shadow:5px 5px 5px grey;
     box-shadow: 1px 1px 38px #ffffff;
     animation: example 2s alternate-reverse infinite;
